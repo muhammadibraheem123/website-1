@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flood and Cloudburst Updates - Pakistan</title>
+    <link rel="stylesheet" href="homepage.css" />
+</head>
+
+<body>
+    <script>
+        // If no user is logged in, redirect to login
+        if (!localStorage.getItem("currentUser")) {
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <header>
+        <h1>Floods & Cloudbursts in Pakistan</h1>
+        <p class="tagline">Real-time updates and awareness about the disasters affecting our communities</p>
+
+        <!-- ✅ Logout button added -->
+        <button id="logoutBtn" style="display:none; margin-top: 10px;">Logout</button>
+    </header>
+
+    <main class="content">
+        <section class="images">
+            <img src="18xp-pakistan-ljqc-threeByTwoLargeAt2X.jpg" alt="Flooded Street">
+            <img src="AFP__20250717__66ZD2T8__v1__HighRes__PakistanWeatherMonsoon-1753167927.webp"
+                alt="Rescue Operation">
+            <img src="hq720.jpg" alt="Cloudburst Impact">
+        </section>
+
+        <section class="info">
+            <h2>Current Situation</h2>
+            <p>
+                Pakistan is currently facing severe flooding and cloudburst incidents across multiple regions.
+                These natural disasters have caused destruction to infrastructure, displacement of families, and loss of
+                lives.
+                Our goal is to provide consistent updates, raise awareness, and encourage relief support.
+            </p>
+            <p>
+                Stay informed, stay safe, and help those in need. Use this platform to access accurate information
+                and share updates responsibly.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>
